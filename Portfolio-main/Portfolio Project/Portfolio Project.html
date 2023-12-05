@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vandrasi Jaswanth</title>
+  <link rel="stylesheet" href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html">
+  <style>
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("data:image/jpeg;base64,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");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#" class="logo">About Me</a>
+    <nav class="nav-items">
+      <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">Home</a>
+      <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">About Me</a>
+      <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">Careers</a>
+      <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">My Resume</a>
+      <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">Look Book</a>
+      <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>About ME</h1>
+      <p>
+Hi, I'm Jaswanth, a final year student at Raghu Engineering College. I'm passionate about computer science and have a strong interest in software development.</p>
+      <button>Learn More</button>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Where it all Started?</p>
+        <p class="work-text">IT ALL STARTED WITH A DESIRE
+
+</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">How it Started?</p>
+        <p class="work-text">I believe that consistency is the key to perfection. I'm always striving to improve my skills and knowledge, and I know that I'll never reach perfection, but I'm committed to the journey.I remember when I was first learning to code, I would get frustrated and give up easily. But then I realized that the only way to get better was to keep practicing. So I started setting aside time each day to code, even if it was just for a few minutes. And slowly but surely, I started to improve. I learned that consistency is the key to success, and that if I kept practicing, I would eventually achieve my goals.
+
+- V.JASWANTH ~ Founder | CEO</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">WHAT CAN YOU EXPECT?</p>
+        <p class="work-text">I'm proficient in Java and Python, and I'm also familiar with other programming languages such as C++, JavaScript, and SQL.
+
+I'm a hard worker and I'm always eager to learn new things. I'm also a team player and I'm good at working with others to achieve common goals. I'm confident that I have the skills and the drive to succeed in a career in software development.
+
+In my free time, I enjoy playing video games, reading, and spending time with my friends and family. I'm also an avid learner and I'm always looking for new ways to improve my skills.
+
+I'm excited to see what the future holds for me, and I'm confident that I can make a positive impact in the world of software development.</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>I'm proficient in Java and Python, and I'm also familiar with other programming languages such as C++, JavaScript, and SQL.
+
+I'm a hard worker and I'm always eager to learn new things. I'm also a team player and I'm good at working with others to achieve common goals. I'm confident that I have the skills and the drive to succeed in a career in software development.
+
+In my free time, I enjoy playing video games, reading, and spending time with my friends and family. I'm also an avid learner and I'm always looking for new ways to improve my skills.
+
+I'm excited to see what the future holds for me, and I'm confident that I can make a positive impact in the world of software development.</p>
+      </div>
+      <img src="./Portfolio Project_files/search">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">© 2024 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">Home</a>
+        <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">About</a>
+        <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#">Contact</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#"><i class="fab fa-facebook"></i></a>
+        <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#"><i class="fab fa-twitter"></i></a>
+        <a href="file:///C:/Users/Jaswanth/OneDrive/Desktop/Protfolio.html#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+</body></html>
